@@ -13,7 +13,7 @@ function kareninAlani(kenaruzunlugu) {
   return kenaruzunlugu * kenaruzunlugu;
 }
 
-//console.log(kareninAlani(10));
+console.log(kareninAlani(10));
 
 /* (Oto test yok) Yukarıdaki kareninAlani fonksiyonunu kenar uzunluğu = 10 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
@@ -29,7 +29,7 @@ function cemberinCevresi(cemberYaricap) {
   return 2* pi * cemberYaricap;
 }
 
-//console.log(cemberinCevresi(5));
+console.log(cemberinCevresi(5));
 
 /* (Oto test yok) Yukarıdaki cemberinCevresi fonksiyonunu yarıçap = 5 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
@@ -150,12 +150,12 @@ tekraredensayilar = [];
 for (let sayi in tekrarSayilari) {
   if (tekrarSayilari[sayi] > 1) {
     tekraredensayilar.push(
-      `${sayi} sayisi ${tekrarSayilari[sayi]} kere tekrar edilmiştir`
+      `${sayi} sayısı ${tekrarSayilari[sayi]} kere tekrar edilmiştir`
     );
   }
 }
 
-console.log(tekraredensayilar);
+//console.log(tekraredensayilar);
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 module.exports = {
